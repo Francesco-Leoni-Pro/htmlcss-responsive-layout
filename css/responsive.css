@@ -37,8 +37,34 @@
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-   /* main {
-       background-color: blue;
-   } */
+    /* QUICK NOTES */
+    .recipe-card {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
+    .recipe-video {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+
+    .recipe-info {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quick-notes li {
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+
+    /* SOCIAL BUTTONS */
+    .social-networks .label {
+        display: inline;
+    }
 }
