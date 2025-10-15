@@ -5,7 +5,26 @@
    /* main {
        background-color: red;
    } */
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+    flex: 0 0 33%;
+    max-width: 33%;
+    }
+
+.social-networks {
+        display: flex;
+        justify-content: space-between;
+    }
+.social-networks button {
+        flex: 1;
+    }
 }
+
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
