@@ -5,7 +5,7 @@
    /* main {
        background-color: red;
    } */
-
+   /* QUICK NOTES */
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
@@ -15,7 +15,7 @@
     flex: 0 0 33%;
     max-width: 33%;
     }
-
+    /* SOCIAL BUTTONS */
 .social-networks {
         display: flex;
         justify-content: space-between;
@@ -23,6 +23,15 @@
 .social-networks button {
         flex: 1;
     }
+    /* ADS */
+    .ads {
+        display: block;
+    }
+    /* PRESENTATION */
+    .presentation img {
+    float: left;
+    margin-right: 10px;
+}
 }
 
 
