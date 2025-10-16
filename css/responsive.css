@@ -15,6 +15,24 @@
     flex: 0 0 33%;
     max-width: 33%;
     }
+
+    /* Allinea il logo a sinistra */
+    #topbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  /* testo dolce tradizionale */
+    .recipe-origin {
+        display: inline-block;
+    }
+
+    /* il padding aumenta */
+main {
+    padding: 40px; /* aumenta rispetto ai 20px base */
+  }
+  
     /* SOCIAL BUTTONS */
 .social-networks {
         display: flex;
